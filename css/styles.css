@@ -1,0 +1,41 @@
+#wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
+#leftContent {
+  position: fixed;
+  width: 200px;
+  height:100vh;
+  left: 0;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #fff #CD5C5C;
+}
+
+#leftContent img {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#leftContent img:hover {
+  opacity: 0.7;
+}
+
+#rightContent {
+  margin: 0px 0 0 200px;
+  padding: 0 20px;
+  height: 690px;
+  position: fixed;
+}
+
+#rightContent img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #CD5C5C;
+}
